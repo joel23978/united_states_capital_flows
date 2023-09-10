@@ -17,6 +17,8 @@ div.main-container {
 }
 </style>
 
+Last Updated on `r format(Sys.Date(), "%B %d, %Y")`
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -63,8 +65,6 @@ last_round_0 <- function(x) dplyr::last(x) %>% round_0()
 
 
 # U.S. Aggregate Portfolio Holdings and Transactions											
-
-Mar 2021 Data -- There is an issue with the months (I think)
 
 
 ## Foreign securities held by U.S. residents {.tabset .tabset-pills}
@@ -528,5 +528,7 @@ temp
 \
 
 Please contact [Joel Findlay](mailto:joel.findlay@gmail.com) if you have questions about the report.
+
+Data is sourced from; the Federal Reserve of St Louis (FRED), the US Treasury, the Reserve Bank of Australia and the Australian Bureau of Statistics.
 
 
