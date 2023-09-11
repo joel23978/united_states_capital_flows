@@ -1,5 +1,4 @@
 # united_states_capital_flows
-rmarkdown report on us capital flows
+rmarkdown report on us capital flows using US Treasury TIC data
 
-
-the code is very messy and poor quality, it was written long time ago
+much of the code is poorly written, but it is functional
