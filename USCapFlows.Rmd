@@ -20,7 +20,6 @@ div.main-container {
 Last Updated on `r format(Sys.Date(), "%B %d, %Y")`
 
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
